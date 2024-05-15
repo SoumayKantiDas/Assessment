@@ -1,0 +1,1 @@
+ dotnet ef dbcontext scaffold Name=productvideoDB Pomelo.EntityFrameworkCore.MySql --output-dir Models --context-dir Data --namespace Assessment.Models --context-namespace Assessment.Data --context AssessmentContext -f --no-onconfiguring^C
